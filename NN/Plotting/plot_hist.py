@@ -2,6 +2,8 @@ from keras.layers import  Dense
 from keras.models import Sequential
 from matplotlib import pyplot as plt
 import numpy as np
+import cbor as cb
+import seaborn as sns
 
 # fix random seed for reproducibility
 seed = 7
@@ -31,7 +33,6 @@ plt.ylabel('accuracy')
 plt.title('Accuracy - Test vs Train')
 plt.legend(['train','val'])
 plt.show()
-
 #plot - Loss
 plt.plot(hist.history['loss'])
 plt.plot(hist.history['val_loss'])
@@ -41,8 +42,8 @@ plt.title('Loss - Train vs Test')
 plt.legend(['Train', 'Test'])
 plt.show()
 
-print('Acc: ', model.evaluate(x,y)[1]*100,'%')
 
+sns.pairplot(x, diag_kind="kde")
 
 
 
