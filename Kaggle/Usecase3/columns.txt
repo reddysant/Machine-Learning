@@ -1,0 +1,9 @@
+([['PoolQC'],['OverallQual'], ['GrLivArea'],['LowQualFinSF'],
+       ['2ndFlrSF'],  ['TotalBsmtSF'],  ['BsmtFinSF2'],  ['BsmtFinSF1'],
+       ['Street'],   ['KitchenAbvGr'], ['1stFlrSF'],  ['GarageCars'],  ['ExterQual'],
+       ['Condition2'], ['Fireplaces'],  ['BsmtQual'],  ['KitchenQual'],
+       ['OverallCond'],  ['TotRmsAbvGrd'],  ['BsmtFullBath'],  ['RoofMatl'],
+       ['Functional'], ['BsmtCond'], ['PavedDrive'],
+       ['MiscFeature'],  ['BsmtFinType2'], ['FullBath'], ['LandContour'], ['Heating'],  ['MasVnrType'],
+       ['GarageFinish'], ['Alley'],  ['BldgType'], ['LandSlope'], 
+    ['GarageQual','FireplaceQu','MSZoning','RoofStyle','SaleCondition','BedroomAbvGr','CentralAir','BsmtExposure'] 
